@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>	
+<?xml-stylesheet type="text/xsl" href"schedule.xsl"?>
+<Schedule  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schedule.xsd">
+	<DayOfWeek name="friday">
+		<Group name="pi18">
+			<Lesson>
+				<Name>Компонентно-ориентированное программирование</Name>
+				<Audience>510</Audience>
+				<Teacher>Ланин В.В.</Teacher>
+				<Type>Lecture</Type>
+				<Start>17:10</Start>
+				<End>18:30</End>
+			</Lesson>
+			<Lesson>
+				<Name>Web-программирование</Name>
+				<Audience>509</Audience>
+				<Teacher>Кузнецов Д.Б.</Teacher>
+				<Type>Practice</Type>
+				<Start>18:40</Start>
+				<End>20:00</End>
+			</Lesson>
+			<Lesson>
+				<Name>Разработка и анализ требований</Name>
+				<Audience>501</Audience>
+				<Teacher>Викентьева О.Л.</Teacher>
+				<Type>Lecture</Type>
+				<Start>20:10</Start>
+				<End>21:30</End>
+			</Lesson>
+		</Group>
+	</DayOfWeek>
+	<DayOfWeek name="saturday">
+		<Group name="pi18">
+			<Lesson>
+				<Name>Управление программными проектами</Name>
+				<Audience>501</Audience>
+				<Teacher>Шестакова Л.В.</Teacher>
+				<Type>Lecture</Type>
+				<Start>9:50</Start>
+				<End>11:10</End>
+			</Lesson>
+			<Lesson>
+				<Name>Программирование на языке Python</Name>
+				<Audience>512</Audience>
+				<Teacher>Гарафутдинов Р.В.</Teacher>
+				<Type>Lecture</Type>
+				<Start>11:20</Start>
+				<End>12:40</End>
+			</Lesson>
+			<Lesson>
+				<Name>Обеспечение качества и тестирование</Name>
+				<Audience>505</Audience>
+				<Teacher>Плаксин М.А.</Teacher>
+				<Type>Practice</Type>
+				<Start>13:10</Start>
+				<End>14:30</End>
+			</Lesson>
+		</Group>
+	</DayOfWeek>
+</Schedule>
